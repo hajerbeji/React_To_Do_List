@@ -1,0 +1,832 @@
+
+/* ----------------------------------Login---------------------------------- */
+.login{
+  background-image: url("https://www.hdwallpapers.in/download/stars_glare_space_dark_blue_sky_background_4k_hd_space-HD.jpg");
+  backdrop-filter: blur(10px);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.login_box{
+  background-color: rgba(0, 0, 0, 0.796);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  border-radius: 30px;
+}
+.login_box h1{
+  padding: 30px;
+}
+.login_box .input_box{
+  display: flex;
+  flex-direction: column;
+}
+.login_box .input_box label{
+  margin-bottom: 10px;
+  margin-left: -400px;
+  font-size: 20px;
+}
+.login_box .input_box span input{
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom:  2px solid #fff;
+  caret-color: #fff;
+  width: 500px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  color: #fff;
+  font-size: 20px;
+}
+.login_box .input_box span{
+  display: flex;
+}
+.login_box .input_box span .icon1{
+  margin-top: -5px;
+  margin-right: -20px;
+  cursor: pointer;
+}
+.login_box .input_box span .icon2{
+  margin-left: -20px;
+  margin-top: -5px;
+  cursor: pointer;
+}
+.login_box .remember{
+  margin-right: 380px;
+  display: flex;
+  align-items: baseline;
+}
+.login_box .remember input{
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+.login_box .btn{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.login_box .btn .btn1{
+  width: 550px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 25px;
+  cursor: pointer;
+  border: none;
+  margin: 10px;
+  margin-bottom: 30px;
+}
+.login_box .btn .btn1:hover{
+  background-color: #2E8A99;
+  color: #fff;
+  box-shadow: 0 10px 25px #2E8A99;
+}
+.login_box .btn .btn2{
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 22px;
+  margin-left: 450px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  color: #2E8A99;
+  height: 40px;
+  width: 100px;
+}
+.login_box .btn .btn2:hover{
+  color: #fff;
+  background-color: #2E8A99;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px #2E8A99;
+}
+@media (max-width:500px) and (min-width:300px) {
+  .login_box{
+    width: 100%;
+    height: 100vh;
+    font-size: 18px;
+    background-color: transparent;
+  }
+  .login_box .input_box span input{
+    width: 270px;
+  }
+  .login_box .input_box label{
+    margin-bottom: 10px;
+    margin-left: 30px;
+  }
+  .login_box .remember{
+    margin-right: 170px;
+  }
+  .login_box .btn .btn1{
+    width: 250px;
+    height: 40px;
+    margin-left: 20px;
+  }
+  .login_box .btn .btn2{
+    margin-left: 200px;
+  }
+}
+@media (max-width:760px) and (min-width:500px) {
+  .login_box{
+    width: 100%;
+    height: 100vh;
+    font-size: 18px;
+    background-color: transparent;
+  }
+  .login_box .input_box span input{
+    width: 450px;
+  }
+  .login_box .input_box label{
+    margin-bottom: 10px;
+    margin-left: 30px;
+  }
+  .login_box .remember{
+    margin-right: 310px;
+  }
+  .login_box .btn .btn1{
+    width: 460px;
+    height: 40px;
+    margin-left: 20px;
+  }
+  .login_box .btn .btn2{
+    margin-left: 340px;
+  }
+}
+@media (max-width:1000px) and (min-width:760px) {
+  .login_box{
+    width: 590px;
+    height: 100vh;
+    font-size: 18px;
+    height: 500px;
+  }
+  .login_box .input_box span input{
+    width: 500px;
+  }
+  .login_box .input_box label{
+    margin-bottom: 10px;
+    margin-left: 30px;
+  }
+  .login_box .remember{
+    margin-right: 310px;
+  }
+  .login_box .btn .btn1{
+    width: 500px;
+    height: 40px;
+    margin-left: 20px;
+  }
+  .login_box .btn .btn2{
+    margin-left: 340px;
+  }
+}
+@media (min-width:1000px) {
+  .login_box{
+    width: 700px;
+    height: 100vh;
+    font-size: 18px;
+  }
+  .login_box .input_box span input{
+    width: 500px;
+  }
+  .login_box .input_box label{
+    margin-bottom: 8px;
+    margin-left: 40px;
+  }
+  .login_box .remember{
+    margin-right: 310px;
+  }
+  .login_box .btn .btn1{
+    width: 500px;
+    height: 40px;
+    margin-left: 20px;
+  }
+  .login_box .btn .btn2{
+    margin-left: 340px;
+  }
+}
+/* ----------------------------------End Login---------------------------------- */
+
+.page{
+  display: flex;
+}
+.main{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  margin-left: 20%;
+  padding-right: 0;
+}
+/* ----------------------------------sidebar : categories list---------------------------------- */
+
+.sidebar{
+  position: relative fixed;
+  width: 20%;
+  height: 99.5vh;
+  bottom: 0;
+  border-right: 2px solid #FF6600;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.sidebar .in_sidebar{
+  position: absolute;
+  color: #000;
+  top: 0;
+}
+.sidebar .in_sidebar li{
+  font-size: 30px;
+  list-style: none;
+  font-weight: 500;
+}
+
+
+
+/* ----------------------add category in the sidebar------------------ */
+.sidebar .in_sidebar .plusbtn{
+  font-size: 30px;
+  margin-top: 10px;
+  margin-left: 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 2px solid #FF6600;
+  color: #000000cb;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 85%;
+}
+.sidebar .in_sidebar .plusbtn:hover{
+  background-color: #FF6600;
+  color: #EFEFEF;
+  border-color: #000000c5;
+  transform: scale(1.1);
+}
+
+.addcategory{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+.addcategory input{
+  outline: none;
+  border-color: #FF6600;
+  padding-left: 10px;
+  font-size: 15px;
+  border-radius: 20px;
+}
+.addcategory button{
+  border: 1px solid #fff;
+  background-color: #FF6600;
+  color: #fff;
+  font-size: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  cursor: pointer;
+}
+.addcategory button:hover{
+  transform: scale(1.1);
+}
+.addcategory .btnssss{
+  margin-left: -60px;
+}
+.addcategory .btnssss :first-child{
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.addcategory .btnssss .x{
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-right: 10px;
+}
+/* -------------------End add category---------------- */
+.sidebarlist{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 70px;
+}
+.sidebar li{
+  cursor: pointer;
+  color: #000000c0;
+}
+.sidebar li:hover{
+  color: #FF6600;
+  transform: scale(1.1);
+}
+.sidebar li{
+  color: #000000c0;
+}
+.categorylist li{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.categorylist{
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 300px;
+}
+.categorylist::-webkit-scrollbar {
+  width: 5px;
+  cursor: pointer;
+}
+.categorylist::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+}
+.categorylist::-webkit-scrollbar-track {
+  background-color: #FF6600;
+}
+.in_sidebar .hr{
+  margin-top: 40px;
+  margin-left: 25px;
+}
+.li_category{
+  margin-left: 40px;
+}
+.darksidebar .in_sidebar{
+  background-color: #000;
+  color: #fff;
+  width: 20%;
+  height: 100vh;
+  border-right: 2px solid #FF6600;
+}
+.darksidebar .in_sidebar li{
+  color: #fff;
+}
+.darksidebar .in_sidebar li:hover{
+  color: #FF6600;
+}
+.darksidebar{
+  background-color: #000;
+}
+.darksidebar li{
+  color: #fff;
+}
+/* ----------------------------------End sidebar---------------------------------- */
+
+/* ----------------------------------the zone : nav and list of tasks---------------------------------- */
+.main .tasks{
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.main .tasks .nav{
+  position: absolute;
+  width: 80%;
+}
+/* ----------------------------------dark mood---------------------------------- */
+.toggle{
+  display: flex;
+  justify-content: flex-end;
+  color: transparent;
+  height: 30px;
+  border-radius: 30%;
+  font-size: 25px;
+  position: fixed;
+  margin-left: 180px;
+  margin-top: 20px;
+}
+.toggle .dark{
+  color: #000;
+  border-radius: 50%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.toggle .light{
+  color: #fff;
+  border-radius: 50%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+/* ----------------------------------End dark mood---------------------------------- */
+
+.main .tasks .sous_nav{
+  background-color: #1D1F21;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 20px;
+  border: 2px solid #FF6600;
+  margin-top: 100px;
+  z-index: 55;
+  overflow: hidden;
+}
+/* ----------------------------------the zone : nav and list of tasks---------------------------------- */
+.isdone{
+  text-decoration: line-through;
+}
+.tasklist{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tasklist h1{
+  color: #ff993fbd;
+  font-size: 40px;
+  letter-spacing: 1px;
+  border-bottom: 0.5px solid grey;
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  padding-bottom: 7px;
+  font-weight: 400;
+}
+.tasklist .sous_h1{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.tasklist .sous_h1 li button{
+  height: 30px;
+  cursor: pointer;
+}
+.tasklist .sous_h1 .put_task{
+  width: 400px;
+  height: 35px;
+  border-radius: 20px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  padding-right: 65px;
+}
+.tasklist .sous_h1 .btn_add{
+  height: 40px;
+  width: 60px;
+  border-radius: 20px;
+  font-size: 20px;
+  margin-left: -60.1px;
+  border: none;
+  background-color: #FF6600;
+  color: #fff;
+  cursor: pointer;
+}
+
+.tasklist .sous_h1 ul li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #FF6600;
+  width: 450px;
+  height: 50px;
+  margin-left: -25px;
+  border-radius: 30px;
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+/* ---------------make a scroll box----------- */
+.sous_h1 ul{
+  max-height: 300px;
+  overflow-y: auto;
+}
+.sous_h1 ul::-webkit-scrollbar {
+  width: 0px;
+  cursor: pointer;
+}
+.sous_h1 ul::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+}
+/* ---------------End scroll box----------- */
+
+.tasklist .sous_h1 ul li .sous_ul1{
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  font-size: 25px;
+}
+
+.tasklist .sous_h1 ul li .sous_ul1 input[type="checkbox"]{
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #FF6600;
+  cursor: pointer;
+}
+.tasklist .sous_h1 ul li .sous_ul1 input[type="checkbox"]:checked{
+  background-color: #FF6600;
+}
+.tasklist .sous_h1 ul li .sous_ul1 input[type="checkbox"]:checked ::before{
+  content: "\2713";
+  color: #fff;
+}
+/* ------------------------css for the task (because if the paragraph was long it has overflow---------------- */
+.tasklist .sous_h1 ul li .sous_ul1 p{
+  margin: 0;
+  max-width: 340px;
+  white-space: nowrap;
+  overflow-y: auto;
+  word-wrap: break-word;
+}
+.tasklist .sous_h1 ul li .sous_ul1 p::-webkit-scrollbar {
+  height: 2px;
+  cursor: pointer;
+}
+.tasklist .sous_h1 ul li .sous_ul1 p::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background-color: #FF6600;
+}
+.tasklist .sous_h1 ul li .sous_ul1 p::-webkit-scrollbar-thumb:hover {
+  background-color: #FF9900;
+}
+/* ---------------------------------------End paragraph's css---------------------------------------- */
+
+/* -------------------------------the edit and delete buttons----------------------- */
+.tasklist .sous_h1 li .sous_ul2{
+  display: flex;
+  gap: 15px;
+  font-size: 20px;
+  margin-right: 5px;
+}
+.tasklist .sous_h1 li .sous_ul2 .icon1, .icon2{
+  cursor: pointer;
+}
+.tasklist .sous_h1 li .sous_ul2 .icon1:hover, .icon2:hover{
+  color: #FF6600;
+  transform: scale(1.5);
+}
+/* -------------------------------End the edit and delete buttons----------------------- */
+.lightmood{
+  background-color: #fff;
+}
+.lightmood .tasks{
+  background-color: #EFEFEF;
+}
+.lightmood .toggle .dark,.light{
+  color: #000;
+}
+
+.lightmood .tasks .sous_nav{
+  background-color: #EFEFEF;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.922);
+}
+
+.lightmood_tasklist .put_task{
+  background-color: #bdbdbd;
+}
+.lightmood_tasklist li{
+  color: #2b2b2b;
+}
+.bg{
+  background-color: #FF6600;
+}
+.darksidebar .dark{
+  color: #fff;
+}
+
+/* -------------------------chrono------------------ */
+.chrono{
+  width: 100%;
+  margin-left: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #EFEFEF;
+}
+
+.timerORcountdown{
+  display: flex;
+  gap: 40px;
+  margin-bottom: 80px;
+  margin-top: -150px;
+}
+.timerORcountdown button{
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  font-size: 25px;
+  font-weight: 400;
+  color: #FF6600;
+  border-bottom: 2px solid #FF9900;
+  box-shadow: 0 10px 25px #000;
+}
+.timerORcountdown button:hover{
+  background-color: #FF6600;
+  color: #fff;
+  box-shadow: 0 10px 25px #FF9900;
+  transform: scale(1.2);
+}
+.timer, .countdown{
+  margin-top: 20px;
+  border-radius: 50%;
+  border: 10px solid #FF6600;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 10px 25px #000;
+}
+.timer span{
+  display: flex;
+  gap: 10px;
+}
+.timer span button, .countdown button{
+  border-radius: 20px;
+  padding: 8px;
+  font-size: 19px;
+  background-color: #FF9900;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.timer span button:hover, .countdown button:hover{
+  transform: scale(1.1);
+}
+.darkchrono{
+  background-color: #000;
+  color: #fff;
+}
+.darkchrono .timerORcountdown button{
+  color: #fff;
+  box-shadow: 0 10px 25px #ff99006f;
+}
+.darkchrono .timer, .countdown{
+  border-color: #FF6600;
+  box-shadow: 0 10px 25px #FF9900;
+}
+.darkchrono .timerORcountdown button:hover{
+  box-shadow: 0 10px 25px #FF9900;
+}
+.countdown span{
+  display: flex;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+.countdown span input{
+  width: 50px;
+  font-size: 20px;
+  outline: none;
+  border-radius: 10px;
+  border: 2px solid #FF6600;
+}
+/* ------------------------End Chrono-------------------- */
+/* ----------------------------Profil------------------------------ */
+.profil{
+  margin-left: 20%;
+  background-color: #EFEFEF;
+}
+.profil .couverture{
+  width: 1200px;
+  height: 350px;
+  margin-top: -100px;
+}
+.profil span{
+  display: flex;
+  gap: 30px;
+}
+.profilphoto{
+  margin-top: -150px;
+  display: flex;
+  flex-direction: column;
+  width: 160px;
+  height: 160px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.profilphoto img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #000000ad;
+  object-fit: cover;
+}
+.profilphoto input{
+  display: none;
+}
+.profilphoto label{
+  background-color: #0000008d;
+  color: #fff;
+  margin-top: -45px;
+  padding: 10px;
+  width: 120px;
+  padding-left: 35px;
+  padding-bottom: 12px;
+}
+
+.profil span .navprofil{
+  margin-top: -120px;
+}
+.profil span .navprofil h2{
+  color: #000000a7;
+  font-weight: 800;
+  font-size: 30px;
+}
+.profil span .navprofil ul{
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.profil span .navprofil ul li{
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  color: rgb(55, 55, 55);
+}
+.profil span .navprofil ul li:hover{
+  transform: scale(1.2);
+  color: #FF6600;
+}
+
+.social_media{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+  margin-left: 170px;
+  color: rgb(57, 57, 57);
+}
+.social_media ul{
+  list-style: none;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.social_media li{
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  cursor: pointer;
+}
+.social_media li:hover{
+  color: #FF6600;
+}
+.darkprofil{
+  background-color: #000;
+  margin-left: 20%;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  width: 100%;
+  height: 100vh;
+  padding-left: 50px;
+  padding-top: 150px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+.darkprofil section h1{
+  font-family: 'Dancing Script', cursive;
+  letter-spacing: 10px;
+  margin-left: 180px;
+  margin-top: -170px;
+  margin-bottom: 60px;
+  font-size: 180px;
+  color: #FF6600;
+  font-weight: 100;
+}
+.darkprofil ul li{
+  color: #fff;
+}
+.darkprofil .social_media h2{
+  color: rgb(139, 102, 102);
+}
+.darkprofil .navprofil h2{
+  color: #efefefb6 !important;
+  margin-top: 40px;
+}
+.darkprofil .navprofil ul li{
+  color: rgb(139, 102, 102) !important;
+}
+/* ----------------------------End Profil------------------------------ */
+
+.modal{
+  background-color: #000000c4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sous_modal{
+  background-color: #fff;
+}
